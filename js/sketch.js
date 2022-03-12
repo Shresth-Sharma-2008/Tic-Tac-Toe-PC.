@@ -15,6 +15,7 @@ function preload(){
 }
 function setup(){
   alert("File has been created by Shresth Sharma and "+"All the copyrights are reserved");
+ alert("PIN is 3288");
     let person = prompt("File is protected please enter PIN", "");
     if (person == "3288") {
         pass=1
